@@ -1,0 +1,3 @@
+[submodule "vendor/skyfiber-docs"]
+	path = vendor/skyfiber-docs
+	url = https://github.com/fibercrypto/skyfiber-docs
