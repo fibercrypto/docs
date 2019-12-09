@@ -152,7 +152,7 @@ TxnSigner ..> PasswordReader
 BlockchainWallet ..> KeyValueStorage
 BlockchainWallet ..> TransactionOutput
 BlockchainWallet --> Transaction : create
-AlcoinManager "1" ..> "*" TxnSigner
+AltcoinManager "1" ..> "*" TxnSigner
 DistWallet ..> Address
 DistWallet --> AddressIterator
 CollectionWallet ..> Address
