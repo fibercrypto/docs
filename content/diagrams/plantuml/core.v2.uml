@@ -272,8 +272,8 @@ WalletStorage : Encrypt(walletName string, password PasswordReader)
 WalletStorage : Decrypt(walletName string, password PasswordReader)
 WalletStorage : IsEncrypted(walletName string) (bool, error)
 
-Wallet : WalletId() string
-Wallet : WalletLabel() string
+Wallet : GetID() string
+Wallet : GetLabel() string
 Wallet : SetLabel(wltName string)
 Wallet : GetCryptoAccount() CryptoAccount
 
